@@ -3,12 +3,13 @@ body {
   font-size: 15px;
   letter-spacing: .05em;
   color: #333;
+  background-color: #87cefa;
 }
 
 a {
-  transition: opacity .3s;
-  text-decoration: none;
-  color: #1ca9e3;
+	transition: opacity .3s;
+	text-decoration: none;
+	color: #1ca9e3;
 }
 
 img {
@@ -87,6 +88,7 @@ img {
   padding: 20px 40px;
 }
 
+
 .header-logo {
   font-size: 20px;
   font-weight: bold;
@@ -95,6 +97,7 @@ img {
   letter-spacing: .05em;
 }
 
+/*ヘッダー左上Taizo's Portfolioの部分*/
 .header-logo a {
   color: #333;
 }
@@ -102,13 +105,14 @@ img {
 .gnav-list {
   display: flex;
   justify-content: space-between;
-  list-style: none;
+	list-style: none;
 }
 
 .gnav-item:not(:last-child) {
   margin-right: 20px;
 }
 
+/*ヘッダー右上WORKS・SKILL・ABOUT・CONTACT*/
 .gnav-item a {
   position: relative;
   font-size: 13px;
@@ -144,7 +148,8 @@ img {
   align-items: center;
   justify-content: center;
   height: 85vh;
-  text-align: center;
+	text-align: center;
+	background-image : url(../img/test1.JPEG);
 }
 
 .mv-container {
